@@ -1,6 +1,11 @@
 ["index","html",{
     "type":"dir",
-    "name":"foo",
-    "label":"Foo",
+    "name":"vue3About",
+    "label":"Vue3",
+    "collpsiable":true
+},{
+    "type":"dir",
+    "name":"vue2About",
+    "label":"Vue2",
     "collpsiable":true
 }]
