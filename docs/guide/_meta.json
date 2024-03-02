@@ -8,4 +8,9 @@
     "name":"vue2About",
     "label":"Vue2",
     "collpsiable":true
+},{
+    "type":"dir",
+    "name":"browser",
+    "label":"浏览器渲染原理简记",
+    "collpsiable":true
 }]
