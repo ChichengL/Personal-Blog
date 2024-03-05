@@ -585,6 +585,7 @@ export function triggerEffects(
   scheduleEffects(dep);
   resetScheduling();
 }
+
 ```
 
 但是 reactive 进行拦截实现的更多。
@@ -943,11 +944,11 @@ Tips：这里涉及到依赖收集
 
 > 对于普通的例如
 >
-> ​ reactive 是采用的 reactiveEffect 文件下的 track 和 trigger 函数进行收集依赖。
+>  reactive 是采用的 reactiveEffect 文件下的 track 和 trigger 函数进行收集依赖。
 >
-> ​ track 调用了 trackEffect 方法；trigger 调用的 triggerEffects 方法
+>  track 调用了 trackEffect 方法；trigger 调用的 triggerEffects 方法
 >
-> ​ Ref 是采用的 trackRefValue 调用了 trackEffect 方法，triggerRefValue 调用了 triggerEffects 方法
+>  Ref 是采用的 trackRefValue 调用了 trackEffect 方法，triggerRefValue 调用了 triggerEffects 方法
 
 而对于计算属性
 
@@ -4631,4 +4632,6 @@ export const transformIf = createStructuralDirectiveTransform(
 );
 ```
 
-​
+
+
+.
