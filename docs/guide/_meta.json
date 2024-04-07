@@ -15,5 +15,11 @@
     "name":"InterviewRelate",
     "label":"面试相关",
     "collpsiable":true
+},
+{
+    "type":"dir",
+    "name":"PerformanceOptimization",
+    "label":"性能优化",
+    "collpsiable":true
 }
 ]
